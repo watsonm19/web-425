@@ -1,10 +1,11 @@
 /*
-============================================
+===============================================
 ; Title:  Assignment 1.4 - TypeScript
 ; Author: Mark Watson
 ; Date: 29 May 2021
-; Description: App component.
-;===========================================
+; Description: Creates a Person object from a class implementing IPerson. 
+;     Outputs values from new Person object in a string.
+;==============================================
 */
 
 // imports the interface

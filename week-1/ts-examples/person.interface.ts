@@ -3,7 +3,7 @@
 ; Title:  Assignment 1.4 - TypeScript
 ; Author: Mark Watson
 ; Date: 29 May 2021
-; Description: Creates a TypeScript interface.
+; Description: Creates a TypeScript "IPerson" interface.
 ;===========================================
 */
 
