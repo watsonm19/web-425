@@ -1,7 +1,7 @@
 # web-425
 Angular with TypeScript
 
-#contributors
+# contributors
 
 - Mark Watson
 - Professor Krasso
