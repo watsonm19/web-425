@@ -1,0 +1,23 @@
+<br />
+<!-- table of composers-->
+<div class="row">
+  <div class="col-sm-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Genre</th>
+        </tr>
+      </thead>
+      <!-- loop through composers list -->
+      <tbody *ngFor="let composer of composers">
+        <tr>
+          <!-- print each full name and genre from composers list -->
+          <td scope="row">{{ composer.fullName }}</td>
+          <td>{{ composer.genre }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
