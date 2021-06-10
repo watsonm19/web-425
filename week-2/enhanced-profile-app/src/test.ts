@@ -1,5 +1,14 @@
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
+/*
+============================================
+; Title:  Assignment 2.4 - Routing In Action
+; Author: Mark Watson
+; Date: 6 June 2021
+; Description: Test typescript file.
+;===========================================
+*/
+
 import 'zone.js/testing';
 import { getTestBed } from '@angular/core/testing';
 import {

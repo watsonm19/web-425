@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Assignment 2.4 - Routing In Action
+; Author: Mark Watson
+; Date: 6 June 2021
+; Description: Test typescript file.
+;===========================================
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/testing';

@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Assignment 2.4 - Routing In Action
+; Author: Mark Watson
+; Date: 6 June 2021
+; Description: Environnment file.
+;===========================================
+*/
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.

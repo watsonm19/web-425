@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Assignment 2.4 - Routing In Action
+; Author: Mark Watson
+; Date: 6 June 2021
+; Description: Contact component spec.
+;===========================================
+*/
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ContactComponent } from './contact.component';

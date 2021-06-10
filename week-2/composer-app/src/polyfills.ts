@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Assignment 2.4 - Routing In Action
+; Author: Mark Watson
+; Date: 6 June 2021
+; Description: Default Polyfills file.
+;===========================================
+*/
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
