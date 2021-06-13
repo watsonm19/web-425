@@ -1,0 +1,13 @@
+<!-- list component -->
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"><strong>{{ myProfile.fullName }}</strong></li>
+  <li class="list-group-item">Favorite Food: {{ myProfile.favoriteFood }}</li>
+  <li class="list-group-item">Favorite Color: {{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item">
+    Keywords:
+    <!-- loops through keywords array and prints each -->
+    <span *ngFor="let word of myProfile.keywords">
+      {{ word }}
+    </span>
+  </li>
+</ul>
