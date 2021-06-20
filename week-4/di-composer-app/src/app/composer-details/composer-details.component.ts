@@ -3,7 +3,7 @@
 ; Title:  Exercise 4.2 - Inversion Control and Dependency Injection
 ; Author: Mark Watson
 ; Date: 20 June 2021
-; Description: App components.
+; Description: Composer details components.
 ;==============================================
 */
 
@@ -26,6 +26,7 @@ export class ComposerDetailsComponent implements OnInit {
     this.composerId = parseInt(this.route.snapshot.paramMap.get('composerId'), 10);
 
     if (this.composerId) {
+      // dependency injection
       this.composer = this.composerService.getComposer(this.composerId);
     }
   }
