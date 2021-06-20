@@ -1,0 +1,32 @@
+<br />
+<!-- table of composers-->
+<div class="row">
+  <div class="col-sm-12">
+    <div class="textSearch">
+      <input id="textSearch" class="form-control" type="text" placeholder="Search By Name" [formControl]="txtSearchControl" />
+    </div>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Composer ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Genre</th>
+        </tr>
+      </thead>
+      <!-- loop through composers list -->
+      <tbody *ngFor="let composer of composers | async">
+        <tr>
+          <!-- print each id, full name and genre from composers list -->
+          <td scope="row">
+            <a routerLink="/composer-details/{{ composer.composerId }}">
+              {{ composer.composerId }}
+            </a>
+          </td>
+          <td scope="row">{{ composer.fullName }}</td>
+          <td>{{ composer.genre }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
