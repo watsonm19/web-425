@@ -1,0 +1,18 @@
+/*
+===============================================
+; Title:  Exercise 5.3 - Data Tables
+; Author: Mark Watson
+; Date: 27 June 2021
+; Description: About component styles.
+;==============================================
+*/
+
+.isbn-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #99E2FF;
+}
+
+.isbn-link:hover {
+  text-decoration: underline;
+}
