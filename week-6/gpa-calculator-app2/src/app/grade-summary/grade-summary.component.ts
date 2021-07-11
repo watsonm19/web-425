@@ -14,8 +14,11 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './grade-summary.component.html',
   styleUrls: ['./grade-summary.component.css']
 })
+
+// Grade Summary Component class
 export class GradeSummaryComponent implements OnInit {
 
+  // accepts inputs of grade and course
   @Input() grade: string;
   @Input() course: string;
 

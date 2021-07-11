@@ -14,8 +14,11 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './gpa.component.html',
   styleUrls: ['./gpa.component.css']
 })
+
+// GPA component class
 export class GpaComponent implements OnInit {
 
+  // accepts input of gpa total
   @Input() gpaTotal: number;
 
   constructor() { }

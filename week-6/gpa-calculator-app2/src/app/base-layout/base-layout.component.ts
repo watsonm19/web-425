@@ -14,6 +14,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './base-layout.component.html',
   styleUrls: ['./base-layout.component.css']
 })
+
+// Base Layout component class
 export class BaseLayoutComponent implements OnInit {
 
   assignment: string;

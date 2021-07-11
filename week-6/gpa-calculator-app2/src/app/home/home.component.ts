@@ -15,6 +15,8 @@ import { ITranscript } from '../transcript.interface';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+// Home component class
 export class HomeComponent implements OnInit {
 
   transcriptEntry: ITranscript;
