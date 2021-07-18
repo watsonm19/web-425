@@ -1,0 +1,39 @@
+<!-- Nav -->
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <!-- logo -->
+    <div class="logo">
+      <img src="../assets/In-N-Out_books_Logo.png" alt="In-N-Out Books Logo" height="80" />
+    </div>
+
+    <!-- nav link items -->
+    <div style="width: 80%">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/book-list">Book List</button>
+        <button mat-button routerLink="/wishlist">Wishlist</button>
+        <button mat-button routerLink="/about">About</button>
+        <button mat-button routerLink="/contact">Contact</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <!-- welcome title -->
+    <mat-card class="main-container">
+      <mat-card-title class="blue">
+        {{ welcome }}
+      </mat-card-title>
+
+      <br /><br />
+
+      <!-- dynamic content -->
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
